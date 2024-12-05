@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d1{
+            margin-top: -140px;
+            width: 200px;
+            height: 200px;
+            border-radius: 80px;
+            position: relative;
+            background-color: rgb(81, 180, 180);
+            animation-name: rotating;
+            animation-iteration-count: infinite;
+        }
+        .d{
+            margin-top: -200px;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            animation-name: rotating;
+        }
+        .d2{
+            margin-left: 160px;
+            border-radius: 35px;
+            background-color: lightgray;
+
+        }
+        .d3{
+            margin-left: 320px;
+            border-radius: 80px;
+            background-color: rgb(150, 63, 255);
+        }
+        .d4{
+            margin-left: 480px;
+            border-radius: 35px;
+            background-color: rgb(160, 255, 255);
+        }
+        .d5{
+            margin-left: 640px;
+            border-radius: 80px;
+            background-color: rgb(81, 180, 180);
+        }
+        .d6{
+            margin-left: 800px;
+            border-radius: 35px;
+            background-color: lightgray
+        }
+        .d7{
+            margin-left: 960px;
+            border-radius: 80px;
+            background-color: rgb(150, 63, 255);
+        }
+        .d8{
+            margin-left: 1120px;
+            border-radius: 35px;
+            background-color: rgb(160, 255, 255);
+        }
+        .d9{
+            margin-left: 1280px;
+            border-radius: 80px;
+            background-color: rgb(81, 180, 180);
+        }
+        .d10{
+            margin-left: 1370px;
+            border-radius: 35px;
+            background-color: lightgray;
+        }
+        .rotating {
+            -webkit-animation: rotating 5s linear infinite;
+            -moz-animation: rotating 5s linear infinite;
+            -ms-animation: rotating 5s linear infinite;
+            -o-animation: rotating 5s linear infinite;
+            animation: rotating 5s linear infinite;
+        }
+
+        @keyframes rotating {
+            from{
+                -ms-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -webkit-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            to{
+                -ms-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -webkit-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        .f{
+            background: url(mainpageborder2.png) no-repeat;
+            background-size: cover;
+            top: -50px;
+        }       
+        .full{
+            padding: 100px;
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+        .container{
+            background-color: rgb(69, 169, 169);
+            border-radius: 30px;
+        }
+        .in{
+            border-radius: 5px;
+            background-color: rgb(224, 255, 255);
+            height: 40px;
+            border: rgb(224, 255, 255);
+        }
+        body{
+            background: url(background.jpg.crdownload) no-repeat;
+            background-size: cover;
+            filter: blur(8px);
+        }
+    </style>
+</head>
+<body>
+    <div class="f">
+    <div class="row">
+        <div class="d1 rotating"></div>
+        <div class="d d2 rotating"></div>
+        <div class="d d3 rotating"></div>
+        <div class="d d4 rotating"></div>
+        <div class="d d5 rotating"></div>
+        <div class="d d6 rotating"></div>
+        <div class="d d7 rotating"></div>
+        <div class="d d8 rotating"></div>
+        <div class="d d9 rotating"></div>
+    </div>
+    <div class="full"><br>
+        <div class="container" align="center"><br><br>
+            <h1>LOGIN</h1><br>
+            <div class="row"><input type="text" placeholder="Enter Username or Email" class="in" style="width: 300px;"></div><br>
+            <div class="row"><input type="text" placeholder="Enter Password" class="in" style="width: 300px;"></div><br><br><br>
+            <div><input type="button" value="Submit" style="height: 35px; width: 70px;box-shadow: 5px 5px 5px rgb(0, 0, 0);background-color: rgb(222, 222, 222);border-radius: 5px;"></div><br><br><br>
+        </div>
+        <center><h4><a href="index.html" style="text-decoration: none;">🡨 Back</a>&emsp;&emsp;&emsp;Don't have an account?&nbsp;<a href="Jsignup.html">SignUp</a></h4></center>
+    </div>
+    </div>
+</body>
+</html>
